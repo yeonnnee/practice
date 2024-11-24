@@ -4,10 +4,10 @@
 
 # 실시간 영상 송출 및 재생
 
-- VLC를 사용하여 로컬에서 RTSP 스트림을 송출
-- FFmpeg로 RTSP 스트림을 HLS 포맷으로 변환
-- HTTP 서버 제공: Express를 사용해 변환된 HLS 파일을 HTTP로 서빙
-- React에서 변환된 HLS 스트림을 재생
+- [VLC를 사용하여 로컬에서 RTSP 스트림을 송출](#VLC로-RTSP-스트림-송출)
+- [FFmpeg로 RTSP 스트림을 HLS 포맷으로 변환](#FFmpeg으로-변환)
+- [HTTP 서버 제공: Express를 사용해 변환된 HLS 파일을 HTTP로 서빙](#Express-서버를-활용하여-HLS-파일을-서빙)
+- [React에서 변환된 HLS 스트림을 재생](#React-에서-영상-재생)
 
 
 
@@ -71,7 +71,7 @@ app.listen(PORT, () => {
 ```
 
 
-### React 에서 HLS로 영상 재생
+### React 에서 영상 재생
 - 리액트에서는 실시간 스트리밍을 위해 HLS, WebRtc를 사용하여 재생한다.
 
 1. HLS 재생
